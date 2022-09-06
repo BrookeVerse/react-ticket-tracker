@@ -1,0 +1,12 @@
+@use "../../assets/sass/variables" as *;
+
+.counterContainer {
+    margin: 10px;
+    width: 13vw;
+    height: 20vh;
+    border: 2px solid black;
+
+    &__heading {
+        margin: 10px;
+    }
+}

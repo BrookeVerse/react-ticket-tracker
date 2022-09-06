@@ -1,0 +1,10 @@
+@use "../../assets/sass/variables" as *;
+
+.counter {
+    margin: 20px;
+
+    &__text {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
