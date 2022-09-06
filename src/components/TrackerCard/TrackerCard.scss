@@ -1,6 +1,13 @@
 @use "../../assets/sass/_variables.scss" as *;
 
 .trackerCard {
+    display: flex;
+    flex-direction: column;
+    width: 14vw;
+    height: 25vh;
+    margin: 30px;
+    background-color: antiquewhite;
+    border: 2px solid black;
     &__heading {
         margin-left: 15px;
     }

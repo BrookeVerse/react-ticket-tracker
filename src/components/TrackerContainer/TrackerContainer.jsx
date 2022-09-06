@@ -1,13 +1,17 @@
 import React from 'react'
 import "./TrackerContainer.scss"
 import TrackerCard from '../TrackerCard/TrackerCard'
-import employee from "../../assets/data/employee"
+import employees from "../../assets/data/employee"
 
 const TrackerContainer = () => {
-
+  const employeeCards = employees.map((employee)=> {
+    return(
+      <TrackerCard name={employee.name} role={employee.role} />
+    )
+  })
   return (
-    <div className='tackerContainer'>
-        <TrackerCard name={employee[0].name} role={employee[0].role}/>
+    <div className='tracker'>
+        {employeeCards}
     </div>
   )
 }
