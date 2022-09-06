@@ -2,8 +2,8 @@
 
 .counterContainer {
   margin: auto;
-  width: 30vw;
-  height: 18vh;
+  width: 8vw;
+  height: 15vh;
   border: 2px solid black;
   text-align: center;
 
@@ -12,16 +12,4 @@
   }
 }
 
-@media screen and (min-width: 768px) {
-  .counterContainer {
-    width: 20vw;
-  }
-}
 
-@media screen and (min-width: 1440px) {
-  .counterContainer {
-    margin-top: 30px;
-    width: 10vw;
-    height: 15vh;
-  }
-}
