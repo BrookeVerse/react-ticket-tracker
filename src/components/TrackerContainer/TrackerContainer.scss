@@ -1,8 +1,25 @@
 @use "../../assets/sass/_variables.scss" as *;
 
 .trackerContainer {
-    width: 15vw;
-    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    height: 32vh;
     margin: 30px;
+    background-color: antiquewhite;
     border: 2px solid black;
 }
+
+@media screen and (min-width: 768px) {
+    .trackerContainer {
+        width: 25vw;
+        height: 30vh;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    .trackerContainer {
+      width: 12vw;
+      height: 27vh;
+    }
+  }

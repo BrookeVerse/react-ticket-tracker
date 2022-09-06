@@ -1,9 +1,15 @@
 @use "./assets/sass/_variables.scss" as *;
 
 .app {
-  height: 100vw;
+  height: 250vw;
   width: 100vw;
   border: 3px solid black;
   background: rgb(138, 63, 251);
   background: radial-gradient(circle, rgba(138, 63, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+@media screen and (min-width: 768px) {
+  .app {
+    height: 150vw;
+  }
 }

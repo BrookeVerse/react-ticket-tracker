@@ -1,5 +1,7 @@
 @use "../../assets/sass/_variables.scss" as *;
 
 .trackerCard {
-    text-align: center;
+    &__heading {
+        margin-left: 15px;
+    }
 }
