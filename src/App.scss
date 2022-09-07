@@ -1,11 +1,15 @@
 @use "./assets/sass/_variables.scss" as *;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+$primaryFont: Lobster, comic, serif;
 
 .app {
   margin: auto;
-  height: 50vw;
+  height: 99.5vh;
   width: 70vw;
   border: 3px solid black;
+  font-family: $primaryFont;
   background: rgb(138, 63, 251);
   background: radial-gradient(circle, rgba(138, 63, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
-}
+} 
 
