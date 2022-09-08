@@ -4,6 +4,7 @@ import "./Form.scss";
 const Form = () => {
   const [name, setName] = useState("");
   const [role, setRole] = useState("");
+  //const [newEmployee, setNewEmployee] = useState("");
   
   const handleFullName = (event) => {
     setName(event.target.value);
@@ -11,10 +12,16 @@ const Form = () => {
   const handleRole = (event) => {
     setRole(event.target.value)
   }
+  const createEmployee = () => {
+    const employee = {}
+    employee.name = name;
+    employee.role = role;
+    console.log(employee);
+  }
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(name, role);
+    return createEmployee();
   }
   return (
     <div className="formsContainer">
