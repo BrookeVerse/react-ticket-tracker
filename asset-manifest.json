@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.7edb325f.css",
-    "main.js": "/static/js/main.dd0e4f70.js",
-    "static/js/787.99c52fad.chunk.js": "/static/js/787.99c52fad.chunk.js",
-    "index.html": "/index.html",
-    "main.7edb325f.css.map": "/static/css/main.7edb325f.css.map",
-    "main.dd0e4f70.js.map": "/static/js/main.dd0e4f70.js.map",
-    "787.99c52fad.chunk.js.map": "/static/js/787.99c52fad.chunk.js.map"
+    "main.css": "/react-ticket-tracker/static/css/main.7edb325f.css",
+    "main.js": "/react-ticket-tracker/static/js/main.5c7f4644.js",
+    "static/js/787.99c52fad.chunk.js": "/react-ticket-tracker/static/js/787.99c52fad.chunk.js",
+    "index.html": "/react-ticket-tracker/index.html",
+    "main.7edb325f.css.map": "/react-ticket-tracker/static/css/main.7edb325f.css.map",
+    "main.5c7f4644.js.map": "/react-ticket-tracker/static/js/main.5c7f4644.js.map",
+    "787.99c52fad.chunk.js.map": "/react-ticket-tracker/static/js/787.99c52fad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7edb325f.css",
-    "static/js/main.dd0e4f70.js"
+    "static/js/main.5c7f4644.js"
   ]
 }
