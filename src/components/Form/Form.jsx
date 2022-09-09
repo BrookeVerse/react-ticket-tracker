@@ -2,6 +2,7 @@
 import "./Form.scss";
 
 const Form = ({ handleFullName, handleRole, handleSubmit }) => {
+  //This is a template for how the form looks and functions using props from the App parent
   return (
     <div className="formsContainer">
       <form onSubmit={handleSubmit}>

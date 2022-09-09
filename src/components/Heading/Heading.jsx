@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Heading.scss"
 
+//This is the component is holding the heading so that it can be changed easily
 const Heading = () => {
   return (
     <div>

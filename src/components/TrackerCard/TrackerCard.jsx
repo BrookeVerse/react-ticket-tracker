@@ -2,6 +2,8 @@ import React from "react";
 import "./TrackerCard.scss";
 import CounterContainer from "../CounterContainer/CounterContainer";
 
+//This is the template for the cards and what info it should use from the parent. 
+//including another compenent for the counter.
 const TrackerCard = (props) => {
   const {name, role} = props
   return (
