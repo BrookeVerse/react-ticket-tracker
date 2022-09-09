@@ -1,35 +1,7 @@
 import React, { useState } from "react";
 import Form from "../Form/Form";
 import "./FormButton.scss";
-const FormButton = () => {
-  const [name, setName] = useState("");
-  const [role, setRole] = useState("");
-  const [employee, setEmployee] = useState ("");
-  const handleFullName = (event) => {
-    setName(event.target.value);
-    console.log(name);
-  };
-
-  const handleRole = (event) => {
-    setRole(event.target.value);
-  };
-
-  const createEmployee = () => {
-    const employee = {};
-    employee.name = name;
-    employee.role = role;
-    setEmployee(employee)
-  };
-  
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    createEmployee();
-    return employee
-  };
-
-  console.log(name);
-  console.log(role);
-  console.log(employee);
+const FormButton = ({handleRole, handleFullName, handleSubmit}) => {
   
   const [showForm, setShowForm] = useState(false);
 

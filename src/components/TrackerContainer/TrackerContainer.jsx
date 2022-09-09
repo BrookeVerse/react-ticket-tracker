@@ -1,11 +1,10 @@
 import React from "react";
 import "./TrackerContainer.scss";
 import TrackerCard from "../TrackerCard/TrackerCard";
-import employees from "../../assets/data/employee";
 
-const TrackerContainer = () => {
-  const employeeCards = employees.map((employee) => {
-    return <TrackerCard key={employee.id} name={employee.name} role={employee.role} />;
+const TrackerContainer = ({employees}) => {
+  const employeeCards = employees.map((employee, index) => {
+    return <TrackerCard key={index} name={employee.name} role={employee.role} />;
   });
   return <div className="tracker">{employeeCards}</div>;
 };

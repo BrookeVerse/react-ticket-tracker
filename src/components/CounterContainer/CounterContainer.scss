@@ -12,4 +12,21 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .counterContainer {
+      width: 20vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .counterContainer{
+    width: 20vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .counterContainer {
+      width: 40vw;
+  }
+}
 
