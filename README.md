@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=300px style="border-radius:10%" src="./assets/images/ticketTracker.jpg" alt="Project Name"></a>
+ <img width=200px height=300px style="border-radius:10%" src="./src/assets/images/ticketTracker.JPG" alt="Project Name"></a>
 </p>
 <h3 align="center">Ticket Tracker</h3>
 
